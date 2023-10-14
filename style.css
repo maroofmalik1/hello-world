@@ -1,0 +1,134 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:orchid;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px ;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 150px;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-size: 24px;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8b1212;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
